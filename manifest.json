@@ -1,1 +1,23 @@
 
+{
+  "manifest_version": 3,
+  "name": "Draft2Digital Keyword Highlighter",
+  "version": "1.1",
+  "description": "Highlights specific keywords and missing punctuation on Draft2Digital book preview pages.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.draft2digital.com/book/e/*/preview"
+      ],
+      "js": ["content-script.js"],
+      "css": ["highlight.css"],
+      "all_frames": true
+    }
+  ],
+  "permissions": [],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "d2d-highlighter@myemail.com"
+    }
+  }
+}
