@@ -1,0 +1,37 @@
+.d2d-highlight {
+    background: yellow;
+    color: black !important;
+    font-weight: bold;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+
+.d2d-missing-punct {
+    background: #60de73;
+    color: black !important;
+    font-weight: bold;
+    padding: 0 2px;
+    border-radius: 2px;
+    cursor: help;
+    border-bottom: 1px dotted #096d2b;
+}
+
+.d2d-enum-runaway {
+    background: orange;
+    color: black !important;
+    font-weight: bold;
+    padding: 0 2px;
+    border-radius: 2px;
+    cursor: help;
+    border-bottom: 1px dotted #ab5700;
+}
+
+.d2d-repetitive-questions {
+    background: #ff6b6b;
+    color: white !important;
+    font-weight: bold;
+    padding: 0 2px;
+    border-radius: 2px;
+    cursor: help;
+    border-bottom: 1px dotted #cc0000;
+}
