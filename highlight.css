@@ -35,3 +35,186 @@
     cursor: help;
     border-bottom: 1px dotted #cc0000;
 }
+
+.d2d-age-concern {
+    background: #ff69b4;
+    color: white !important;
+    font-weight: bold;
+    padding: 0 2px;
+    border-radius: 2px;
+    cursor: help;
+    border-bottom: 1px dotted #cc1166;
+}
+
+.d2d-custom-tooltip {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}.d2d-highlight {
+    background: yellow;
+    color: black !important;
+    font-weight: bold;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+
+.d2d-highlight:hover::after {
+    content: "⚠️ AI/SYSTEM CONTENT: This text contains keywords commonly found in AI-generated content, placeholder text, or system messages that may violate content guidelines.";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    max-width: 300px;
+    z-index: 1000;
+    margin-top: 20px;
+    margin-left: -50px;
+    font-weight: normal;
+}
+
+.d2d-missing-punct {
+    background: #60de73;
+    color: black !important;
+    font-weight: bold;
+    padding: 0 2px;
+    border-radius: 2px;
+    cursor: help;
+    border-bottom: 1px dotted #096d2b;
+}
+
+.d2d-missing-punct:hover::after {
+    content: "📝 MISSING PUNCTUATION: This sentence appears to be missing proper end punctuation (period, question mark, or exclamation point).";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    max-width: 300px;
+    z-index: 1000;
+    margin-top: 20px;
+    margin-left: -50px;
+    font-weight: normal;
+}
+
+.d2d-enum-runaway {
+    background: orange;
+    color: black !important;
+    font-weight: bold;
+    padding: 0 2px;
+    border-radius: 2px;
+    cursor: help;
+    border-bottom: 1px dotted #ab5700;
+}
+
+.d2d-enum-runaway:hover::after {
+    content: "🔄 AI LOOPING DETECTED: This text shows repetitive patterns typical of AI-generated content that got stuck in a loop or enumeration pattern.";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    max-width: 300px;
+    z-index: 1000;
+    margin-top: 20px;
+    margin-left: -50px;
+    font-weight: normal;
+}
+
+.d2d-repetitive-questions {
+    background: #ff6b6b;
+    color: white !important;
+    font-weight: bold;
+    padding: 0 2px;
+    border-radius: 2px;
+    cursor: help;
+    border-bottom: 1px dotted #cc0000;
+}
+
+.d2d-repetitive-questions:hover::after {
+    content: "❓ REPETITIVE QUESTIONS: Multiple similar questions in sequence often indicate AI-generated content or poor writing quality.";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    max-width: 300px;
+    z-index: 1000;
+    margin-top: 20px;
+    margin-left: -50px;
+    font-weight: normal;
+}
+
+.d2d-age-concern {
+    background: #ff69b4;
+    color: white !important;
+    font-weight: bold;
+    padding: 0 2px;
+    border-radius: 2px;
+    cursor: help;
+    border-bottom: 1px dotted #cc1166;
+}
+
+.d2d-age-concern:hover::after {
+    content: "🚫 AGE-RELATED CONTENT: This text contains keywords that may suggest characters are under 18 or imply youth in adult contexts, which violates Draft2Digital guidelines.";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    max-width: 300px;
+    z-index: 1000;
+    margin-top: 20px;
+    margin-left: -50px;
+    font-weight: normal;
+}.d2d-highlight {
+    background: yellow;
+    color: black !important;
+    font-weight: bold;
+    padding: 0 2px;
+    border-radius: 2px;
+}
+
+.d2d-missing-punct {
+    background: #60de73;
+    color: black !important;
+    font-weight: bold;
+    padding: 0 2px;
+    border-radius: 2px;
+    cursor: help;
+    border-bottom: 1px dotted #096d2b;
+}
+
+.d2d-enum-runaway {
+    background: orange;
+    color: black !important;
+    font-weight: bold;
+    padding: 0 2px;
+    border-radius: 2px;
+    cursor: help;
+    border-bottom: 1px dotted #ab5700;
+}
+
+.d2d-repetitive-questions {
+    background: #ff6b6b;
+    color: white !important;
+    font-weight: bold;
+    padding: 0 2px;
+    border-radius: 2px;
+    cursor: help;
+    border-bottom: 1px dotted #cc0000;
+}
+
+.d2d-age-concern {
+    background: #ff69b4;
+    color: white !important;
+    font-weight: bold;
+    padding: 0 2px;
+    border-radius: 2px;
+    cursor: help;
+    border-bottom: 1px dotted #cc1166;
+}
