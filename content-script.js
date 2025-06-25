@@ -26,8 +26,7 @@ const KEYWORDS = [
 
   "if you require further changes", "let me know if you need", "this is a placeholder", "section placeholder", "the rewritten version",
 
-  "the flagged content", "flag:", "rewrite:", "redacted", "omitted",
-
+  "the flagged content", "flag:", "rewrite:", "redacted", "omitted", "11", "12", "13", "14", "15", "16", "17",
 
 
   // Added, extended
@@ -140,7 +139,7 @@ const AGE_KEYWORDS = [
 
   "barely legal", "barely eighteen", "barely 18", "underage", "young", "youthful", "minor", "kid",
 
-  "child", "toddler", "adolescent", "prepubescent", "pubescent", "tween", "nursery", "diaper",
+  "child", "toddler", "adolescent", "prepubescent", "pubescent", "nursery", "diaper",
 
   "schoolgirl", "school boy", "schoolgirl outfit", "school uniform", "grade school", "freshman",
 
@@ -198,7 +197,7 @@ const AGE_WHOLE_WORD_KEYWORDS = [
 
   "baby", "teen", "minor", "kid", "child", "young", "tiny", "virgin", "barely", "naive", "brat",
 
-  "innocent", "captive", "desk", "fresh", "soft", "growing", "recent"
+  "innocent", "captive", "desk", "fresh", "growing", "recent", "tween"
 
 ];
 
